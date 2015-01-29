@@ -40,3 +40,4 @@ if has('syntax')
 endif
 "Zenkaku highlight end
 
+echo "minimal_vim installed!"
