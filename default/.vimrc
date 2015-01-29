@@ -13,7 +13,7 @@ NeoBundle 'mattn/emmet-vim'
 NeoBundle 'thinca/vim-quickrun'
 NeoBundle 'grep.vim'
 NeoBundle 'scrooloose/syntastic'
-
+NeoBundle 'tpope/vim-fugitive'
 
 call neobundle#end()
 
@@ -25,7 +25,17 @@ NeoBundleCheck
 " End Neobundle Settings.
 "-------------------------
 
+" nerdtree
 let NERDTreeShowHidden = 1
 autocmd VimEnter * execute 'NERDTree'
-echo "default_vim installed!"
 
+" vim-fugitive
+autocmd QuickFixCmdPost *grep* cwindow
+set statusline+=%{fugitive#statusline()}
+
+
+
+
+
+
+echo "default_vim installed!"

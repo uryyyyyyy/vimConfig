@@ -22,6 +22,13 @@ set tabstop=4
 set shiftwidth=4
 set helplang=en
 set clipboard=unnamed
+set laststatus=2
+"set statusline=%f%m%=%l,%c\ %{'['.(&fenc!=''?&fenc:&enc).']\ ['.&fileformat.']'}
+set statusline=%<%f\ %m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']'}%=%l,%c%V%8P
+set cmdheight=2
+
+
+
 colorscheme desert
 
 "Zenkaku highlight
