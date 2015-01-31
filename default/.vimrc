@@ -14,6 +14,7 @@ NeoBundle 'thinca/vim-quickrun'
 NeoBundle 'grep.vim'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'tpope/vim-fugitive'
+NeoBundle 'Shougo/neocomplcache'
 
 call neobundle#end()
 
