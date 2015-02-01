@@ -7,6 +7,7 @@ set runtimepath+=~/.vim/bundle/neobundle.vim/
 call neobundle#begin(expand('~/.vim/bundle/'))
 
 NeoBundle 'kana/vim-filetype-haskell'
+NeoBundle 'dag/vim2hs'
 " need ghc-mod via cabal
 NeoBundle 'eagletmt/ghcmod-vim'
 "NeoBundle 'Shougo/neocomplcache'
