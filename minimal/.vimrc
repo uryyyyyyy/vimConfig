@@ -17,7 +17,7 @@ set hidden
 set history=2000
 set autoindent
 set smartindent
-set paste
+set nopaste
 set tabstop=4
 set shiftwidth=4
 set helplang=en
