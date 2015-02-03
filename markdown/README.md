@@ -1,6 +1,0 @@
-
-## view on browser
-
-:PrevimOpen
-
-
