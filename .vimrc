@@ -122,6 +122,7 @@ inoremap <expr><C-y>  neocomplcache#close_popup()
 inoremap <expr><C-e>  neocomplcache#cancel_popup()
 
 
-
+source ~/.vim/_plugins/haskell.vim
+source ~/.vim/_plugins/javascript.vim
 
 echo "default_vim installed!"
